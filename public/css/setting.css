@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+@font-face {
+    font-family: fontone;
+    src: url(../fonts/Karla-Regular.eot);
+    src: url(../fonts/Karla-Regular.ttf);
+    src: url(../fonts/Karla-Regular.woff);
+    src: url(../fonts/Karla-Regular.woff2);
+}
+
+@font-face {
+    font-family: fonttwo;
+    src: url(../fonts/2/CormorantGaramond-Light.ttf);
+    src: url(../fonts/2/);
+    src: url(../fonts/2/);
+    src: url(../fonts/2/);
+}
+
+@font-face {
+    font-family: fontthree;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
