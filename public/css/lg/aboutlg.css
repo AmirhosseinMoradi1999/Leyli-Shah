@@ -23,12 +23,12 @@
       .one {
         width: 70%;
         height: 50px;
-        font-family: fonttwo;
         color: white;
         font-weight: 700;
         font-size: 35px;
         margin-top: 92px;
         margin-left: 42px;
+        font-family: fonttwo;
       }
       .text {
         width: 80%;

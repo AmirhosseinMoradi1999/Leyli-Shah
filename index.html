@@ -52,7 +52,7 @@
             <div class="search">
               <p>Search</p>
               <input type="search" name="" id="" />
-              <span class="cl">
+              <span class="magnifying">
                 <svg
                   width="17"
                   height="17"
@@ -647,27 +647,27 @@
       let btn2 = document.querySelector(".close2")
       let header = document.querySelector(".header>.bottom>.left")      
       btn.addEventListener("click", function(){
-        header.classList.add("d_flex")
-        btn.classList.add("d_none")
-        btn2.classList.add("d_block")
+        header.classList.add("flex")
+        btn.classList.add("none")
+        btn2.classList.add("block")
       })
       btn2.addEventListener("click", function(){
-        header.classList.remove("d_flex")
-        btn.classList.remove("d_none")
-        btn2.classList.remove("d_block")
+        header.classList.remove("flex")
+        btn.classList.remove("none")
+        btn2.classList.remove("block")
       })
     </script>
     <script>
-      let dokme = document.querySelector(".rightthird")   
+      let click = document.querySelector(".rightthird")   
       let search = document.querySelector(".search1")   
-      let dk = document.querySelector(".search1>.search>.cl")
-      console.log(dk);
+      let glass = document.querySelector(".search1>.search>.magnifying")
       
-      dokme.addEventListener("click", function(){
-        search.classList.add("d_flex")
+      
+      click.addEventListener("click", function(){
+        search.classList.add("flex")
       })
-      dk.addEventListener("click", function(){
-        search.classList.remove("d_flex")
+      glass.addEventListener("click", function(){
+        search.classList.remove("flex")
       })
     </script>
      <!-- project end -->

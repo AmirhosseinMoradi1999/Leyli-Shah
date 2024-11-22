@@ -122,12 +122,12 @@ a {
   cursor: default;
 }
 
-.d_flex {
+.flex {
   display: flex !important;
 }
-.d_none {
+.none {
   display: none !important;
 }
-.d_block {
+.block {
   display: block !important;
 }

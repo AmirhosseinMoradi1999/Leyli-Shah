@@ -2,11 +2,11 @@
     width: 100%;
     background-image: url(../../images/lg/8f11b6e6fe2d75a9481922d556d4227e\ .jpg);
     height: 1143px;
-    background-size: cover;
-    background-position: top;
     display: flex;
     flex-direction: column;
     justify-content: end;
+    background-size: cover;
+    background-position: top;
     position: absolute;
     top: 115px;
     .top {

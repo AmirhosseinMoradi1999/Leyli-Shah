@@ -8,12 +8,13 @@
 .slidersmall {
   width: 100%;
   height: 505px;
-  position: absolute;
-  top: 3407px;
-  padding-left: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-left: 40px;
+  position: absolute;
+  top: 3407px;
+
   .top {
     width: 100%;
     height: 58px;
@@ -23,10 +24,11 @@
     .one {
       width: 100%;
       height: 39px;
-      font-family: fonttwo;
       color: #0c0606;
       font-size: clamp(29px, 1.5vw, 32px);
       text-align: center;
+      font-family: fonttwo;
+
     }
     .two {
       width: 100%;

@@ -21,12 +21,12 @@
       .one {
         width: 79%;
         height: 42px;
-        font-family: fonttwo;
         color: white;
         font-weight: 700;
         font-size: clamp(30px, 1vw, 35px);
         margin-top: 248px;
         margin-left: 40px;
+        font-family: fonttwo;
       }
       .text {
         width: 80%;

@@ -17,7 +17,7 @@
       & p {
         font-size: clamp(50px, 5vw, 64px);
         color: white;
-        font-family: font2;
+        font-family: fonttwo;
       }
     }
     .center {
@@ -26,7 +26,7 @@
       margin: 24px;
       margin-left: 40px;
       & p {
-        font-family: font3;
+        font-family: fontthree;
         font-size: clamp(14px, 3.8vw, 18px);
         color: white;
       }

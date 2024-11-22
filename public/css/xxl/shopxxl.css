@@ -21,21 +21,21 @@
     .one {
       width: 57%;
       height: 75px;
-      font-family: fonttwo;
       color: #0c0606;
       font-weight: 700;
       font-size: 45px;
       margin-top: 85px;
       margin-left: 104px;
+      font-family: fonttwo;
     }
     .text {
       width: 75%;
       height: 147px;
       font-size: clamp(17px, 1.5vw, 23px);
       font-weight: #0c0606;
-      font-family: fontthree;
       margin-left: 107px;
       margin-top: 1px;
+      font-family: fontthree;
     }
     & button {
       width: 17%;

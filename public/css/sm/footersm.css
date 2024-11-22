@@ -31,17 +31,18 @@
         align-items: center;
         .title {
           color: white;
-          font-family: fonttwo;
           font-size: clamp(13px, 1vw, 14px);
           font-weight: 700;
+          font-family: fonttwo;
+
         }
         & span {
           color: #b8b8b8;
-          font-family: fontthree;
           font-size: clamp(9px, 1vw, 13px);
           display: block;
           width: 100%;
           text-align: center;
+          font-family: fontthree;
         }
       }
       .child2 {
@@ -107,10 +108,10 @@
       text-align: center;
       & pre {
         color: #626262;
-        font-family: fontone;
         font-size: 13px;
         line-height: 24px;
         font-size: clamp(8px, 1.3vw, 12px);
+        font-family: fontone;
       }
     }
     .right {
@@ -120,9 +121,9 @@
       margin-top: 6px;
       & pre {
         color: #646464;
-        font-family: fontone;
         font-size: clamp(7px, 1vw, 11px);
         line-height: 23px;
+        font-family: fontone;
       }
     }
   }
