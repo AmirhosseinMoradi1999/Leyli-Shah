@@ -11,7 +11,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
-    .inside {
+    .inner_top {
       width: 100%;
       height: 257px;
       margin-top: 81px;
@@ -27,13 +27,13 @@
         height: 40px;
         color: #705B4F;
         font-size: 24px;
-        font-family: fonttwo;
+        font-family: font2;
         text-align: center;
       }
     }
     & p {
       color: #0c0606;
-      font-family: fonttwo;
+      font-family: font2;
       width: 100%;
       height: 39px;
       font-size: clamp(28px, 2vw, 32px);

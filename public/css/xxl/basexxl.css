@@ -14,12 +14,10 @@
     margin-left: 64px;
     & p {
       position: relative;
-      top: 110px;
+     
       font-size: clamp(60px, 5vw, 80px);
       color: white;
-      font-weight: 400;
-      font-size: 80px;
-      line-height: 96.88px;
+      
       font-family: fonttwo;
     }
    
